@@ -16,3 +16,8 @@ puts a.class
 #3. What are constant in Ruby?: constant are variables when declared the value cannot be changed
 #4. How to define variables in Ruby?: a = 10, b = 20
 #5. How to get memory address of a variable in ruby?: a = 10, a.object_id
+#
+#
+A = 25
+
+puts A.class
