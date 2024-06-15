@@ -1,0 +1,13 @@
+<% @dates = [] %>
+
+<%= month_calendar do |date| %>
+    <%= date %>
+    <% @dates.append(date.wday)%>
+<% end %>
+
+</br>
+<%=  @dates %>
+
+</br>
+
+<%= %>
